@@ -1,0 +1,47 @@
+.Filter {
+  position: absolute;
+  background: #131313;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.56);
+  top: 100%;
+  right: 10%;
+}
+
+.Filter > hr {
+  width: 100%;
+  color: #a5a5a5;
+  background: #a5a5a5;
+}
+.Filter > h2 {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "SF Pro Display";
+  color: #a5a5a5;
+}
+.dd__state {
+  width: 100%;
+  background: #232323;
+  color: white;
+  font-size: 17px;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  margin-block: 5px;
+}
+.dd__option {
+  width: 100%;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  color: white !important;
+  font-family: "SF Pro Display" !important;
+  padding: 1rem 0.5rem;
+  margin-block: 5px;
+}
